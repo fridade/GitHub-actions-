@@ -78,7 +78,7 @@ jobs:
           docker run --rm gcr.io/${{ secrets.GCP_PROJECT_ID }}/php-app:${{ github.sha }} php vendor/bin/phpunit
      ## GitHub Secrets
 
-Configure the following secrets in your GitHub repository settings:
+Configure the following secrets in my GitHub repository settings:
 
 - **`GCP_PROJECT_ID`**: Your Google Cloud project ID.
 - **`GCP_SA_KEY`**: The JSON key for your Google Cloud service account.
